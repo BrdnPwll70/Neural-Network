@@ -2,6 +2,7 @@ import torch
 import torchvision
 import matplotlib.pyplot as plt
 from torchvision import datasets, transforms
+import numpy as np
 
 # Define the neural network architecture (this should match your original model)
 class SimpleNN(torch.nn.Module):

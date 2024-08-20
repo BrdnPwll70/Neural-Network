@@ -62,4 +62,4 @@ with torch.no_grad():
 
 print(f"Accuracy: {100 * correct / total}%")
 
-torch.save(model.state.dict(), 'mnist_model.pth')
+torch.save(model.state_dict(), 'mnist_model.pth')
